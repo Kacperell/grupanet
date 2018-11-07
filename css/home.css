@@ -1,0 +1,157 @@
+
+.iconLinkMedia{
+    width: 50%;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;  
+  }
+  .icon.media:hover{
+    -webkit-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+  }
+  
+  section{
+    margin-top:1rem;
+  }
+  .head{
+    font-size: 2rem;
+    font-weight: 600;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+   .text{
+     line-height: 35px;
+     font-size: 1.6rem;
+     text-align: center;
+   }
+   .mission{
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+     animation: fadeIn 0.8s ease-in both;
+   }
+  .missionContent{
+    max-width: 800px;
+    max-width:90%;
+  }
+
+  .value{
+   width: 40%;
+   max-width: 80%;
+   background-color: white;
+   margin: 10px;
+   padding: 10px;
+   border-radius: 10px;
+   box-shadow: 0.7px 0.7px grey;
+  }
+  .value:hover{
+    border-radius: 12px;
+    transition: 0.5s;
+   
+  }
+  
+  .valueTitle{
+     font-size: 1.8rem;
+     font-weight: 500;
+     margin-top: 15px;
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+  }
+  .valueText{
+    font-size: 1.7rem;
+  }
+  .valuesBox{
+    display: flex; 
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-bottom:15px;
+  }
+  
+  
+  .values{
+    background-color: #9ec1be;
+   width: 100%;
+   display: flex;
+   justify-content: center;
+   border-radius:5px;
+  }
+  .valuesCOntenet{
+    max-width: 1300px;
+  }
+  .head.valuesTitle{
+    color: white;
+    text-shadow: 0 0 2px #000; /* horizontal-offset vertical-offset 'blur' colour */
+    -moz-text-shadow: 0 0 2px #000;
+    -webkit-text-shadow: 0 0 2px #000;
+  }
+  
+  
+
+  
+  @media screen and (max-width:710px) {
+  
+          .icon{
+            width: 100px;
+            height: 100px;
+          }
+          .head{
+            font-size: 1.9rem;
+          }
+          .text{
+            font-size: 1.1rem;
+            line-height: 28px;
+          }
+          .value{
+            width: 95%;
+            max-width: 80%;
+            margin: 7px;
+           padding: 7px;
+           }
+  
+           .valueTitle{
+            font-size: 1.5rem;
+          }
+          .valueText{
+            font-size: 1.2rem;
+          }
+           .iconLinkMedia{
+            width: 90%;
+            margin: 0 auto;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;  
+          }
+          .icon.media{
+            width: 70px;
+            height: 70px;
+          }
+          
+  }
+  
+  
+  
+  
+  @media screen and (max-width:350px) {
+ 
+    .icon{
+      width: 80px;
+      height: 80px;
+    }
+    .head{
+      font-size: 1.3rem;
+    }
+    .text{
+      font-size: 1rem;
+    }
+    .Mediatitle{
+      font-size: 1.5rem;
+    }
+  }

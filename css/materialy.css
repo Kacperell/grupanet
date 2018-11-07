@@ -1,0 +1,87 @@
+ul.materialyLista{
+   width:100%;
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+}
+
+ li.ElementMaterialy {
+    display: flex;
+    flex-direction: row;
+    background: white;
+    list-style: none;
+    border-bottom: 1px solid #D8D8D8;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.14);
+    margin: 0;
+    padding: 20px;
+    transition: background 0.2s;
+    display: flex;
+    text-transform: capitalize;
+    margin-top:40px;
+    flex-wrap: wrap-reverse;
+    justify-content:space-around;
+    align-items: center;
+    font-size: 1.7rem;
+  
+}
+a.materialsHref{
+    text-decoration: none;
+    color:#161c26;
+    max-width: 99%;
+    min-width: 50%;
+}
+.icon.MateilasIcons{
+    width:80px;
+    height:80px;
+}
+.academiaNam{
+    margin-right: 15px;
+}
+
+a.materialsHref {
+    position: relative;
+    color: #000;
+    text-decoration: none;
+  }
+  
+  a.materialsHref:hover {
+    color: black;
+  }
+ a.materialsHref:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #000;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  a.materialsHref:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+  }
+
+
+@media screen and (max-width:710px) {
+    .icon.MateilasIcons{
+        width:60px;
+        height:60px;
+    }
+    li.ElementMaterialy {    
+        flex-direction: column;
+        padding: 15px;
+        margin-top:20px
+    }
+    a.materialsHref{
+        text-decoration: none;
+        color:#161c26;
+        width: 90%;
+    }
+}
