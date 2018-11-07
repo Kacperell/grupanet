@@ -267,7 +267,7 @@ margin-right: 20px;
     margin-left: 20px;
     align-items: center;
   }
-    
+
   .footericon{
     widows: 40px;
     height:40px;
@@ -278,4 +278,16 @@ margin-right: 20px;
     footer{
       font-size: 1rem;
   }
+  .footerIconsBox{
+    margin-left: 10px;
+   
+  }
+
+  .footericon{
+    widows: 31px;
+    height:31px;
+    margin-left: 5px;
+    margin-right: 15px;
+  }
+
 }
