@@ -41,15 +41,7 @@ body.fixed-nav .site-wrap {
   transform: scale(1);
 }
 
-header {
-  text-align: center;
-  height:58vh;
-  background:url(/img/tlo.png) bottom center no-repeat;
-  background-size:cover;
-  display:flex;
-  align-items:center;
-  justify-content: center;
-}
+
 
 nav {
   background:#161c26;
@@ -248,4 +240,14 @@ margin-right: 20px;
           opacity: 1;
           transform: translate3d(0, 0, 0);
       }
+  }
+
+  .bigLogo {
+    text-align: center;
+    height:58vh;
+    background:url(tlo.png) bottom center no-repeat;
+    background-size:cover;
+    display:flex;
+    align-items:center;
+    justify-content: center;
   }
